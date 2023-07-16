@@ -20,9 +20,11 @@ body{
 }
 .title{
     font-size: 35px;
-    font-weight: 800;
+    font-weight: 700;
+    margin: 0 0 20px 0;
 }
 .details{
+    margin-top: 0;
     font-size: 18px;
     font-weight: 400;
 }
@@ -44,7 +46,7 @@ header{
 }
 .banner-title{
     font-size: 70px;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0 0 32px 0;
 }
 .banner-details-text{
@@ -63,7 +65,7 @@ header{
     display: flex;
     align-items: center;
     gap: 80px;
-    margin-top: 150px;
+    margin-top: 120px;
     padding: 50px 180px;
     background-color: rgba(229, 84, 115, 0.05);
     border-radius: 8px;
@@ -81,4 +83,21 @@ header{
 .hot-deal-column2 img{
     height: 350px;
     width: 100%;
+}
+
+/* instagram section style  */
+.instagram{
+    text-align: center;
+    margin-top: 120px;
+    padding:0 120px;
+   
+}
+.instagram-images{
+    display: flex;
+}
+.instagram-images img{
+    padding: 30px 20px;
+    width: 25%;
+    height: 350px;
+    box-sizing: border-box;
 }
